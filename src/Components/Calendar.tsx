@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import Box from './Box';
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
 
 interface DateProps {
   today: Date;

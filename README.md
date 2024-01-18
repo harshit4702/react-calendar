@@ -1,3 +1,33 @@
+# React Calendar
+
+## Overview
+
+"React Calendar" is a versatile and customizable calendar component built using React and TypeScript. This project provides a straightforward template for integrating a feature-rich calendar into your React applications, utilizing the power of Vite for seamless development.
+
+## Features
+
+- Responsive design
+- Month && Year navigation
+- Customizable styling
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+
+## Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/harshit4702/react-calendar
+2. **Install Dependencies:**
+   ```bash
+   pnpm install
+3. **Start Server:**
+   ```bash
+   pnpm run dev
+   
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -28,4 +58,3 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-calendar

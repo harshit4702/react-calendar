@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    width: 400px;
+    grid-template-columns: repeat(7, minmax(0,1fr));
+    justify-content: center;
+    text-align: center;
+}
+
+.parent {
+    grid-column: span 3 ;
+}
+
+.item {
+    padding: 10px;
+    border: 0.5px solid lightgray;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.target {
+    cursor: pointer;
+}
+
+.target:hover {
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+div .button {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    border: none; 
+    cursor: pointer;
+}
